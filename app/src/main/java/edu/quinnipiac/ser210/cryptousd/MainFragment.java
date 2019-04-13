@@ -61,8 +61,8 @@ public class MainFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View layout = inflater.inflate(R.layout.fragment_main, container, false);
         // Inflate the layout for this fragment
+        View layout = inflater.inflate(R.layout.fragment_main, container, false);
         super.onCreate(savedInstanceState);
 
         //gets both spinners and finds the layout
